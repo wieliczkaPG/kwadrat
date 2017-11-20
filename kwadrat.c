@@ -13,7 +13,7 @@ printf("podaj wspolczynnik c: ");
 scanf("%f",&c);
 delta =(b*b)-(4*a*c);                   /* oblicznanie delty*/
 if
-        (a==0)
+        (a==0) 
         {
         printf("to nie rownanie kwadratowe");
         }
@@ -21,7 +21,7 @@ else
         {
  
         if
-                (delta>0)
+                (delta>0)          /*jesli delta >0 to sa dwa miejsca zerowe*/
                 {
                 printf("pierwsze rozwiazanie x: %2f\n",(-b-delta)/(2*a));
                 printf("drugie rozwiazanie x: %2f\n",(-b+delta)/(2*a));
